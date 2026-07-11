@@ -12,15 +12,22 @@
 ```bash
 git clone https://github.com/josezuma/deck-analyzer.git
 cd deck-analyzer
-python3 scripts/generate.py
+Scores a deck 0-100 across 10 checks. Each check is a YC partner rule (Kevin Hale + Geoff Ralston frameworks).
+```
+
+## Demo
+
+```bash
+Scores a deck 0-100 across 10 checks. Each check is a YC partner rule (Kevin Hale + Geoff Ralston frameworks).
+python3 scripts/audit.py deck.txt
+Checks: headline length, metrics, jargon, bullets, comparison, team, financials.
 ```
 
 ## Related
 
 - [yc-pitch-deck-max](https://github.com/josezuma/yc-pitch-deck-max)
 - [yc-content-framework](https://github.com/josezuma/yc-content-framework)
-- [investor-question-bank](https://github.com/josezuma/investor-question-bank)
-- [slide-styles](https://github.com/josezuma/slide-styles)
+- [+17 more pitch deck tools](https://github.com/josezuma?tab=repositories)
 
 ## License
 
